@@ -7,13 +7,19 @@ h1 {
 
 a {
     color: blue;
-    font-size: 20px;
+    font-size: 30px;
+    margin: 20px;
+    display: block;
 }
 
 body {
-    background-color: lightgray;
+    background: linear-gradient(180deg, rgb(240, 234, 214), rgb(35, 80, 35));
+    height: 100vh;
 }
 
 img {
     border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
